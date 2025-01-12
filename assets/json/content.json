@@ -1,0 +1,19 @@
+{
+    "blogPosts": [
+        {
+            "title": "New Season Kickoff",
+            "date": "2024-12-01",
+            "content": "The Partizan Basketball Club is excited to announce the start of the new season. Stay tuned for upcoming matches!"
+        },
+        {
+            "title": "Meet the New Players",
+            "date": "2024-12-05",
+            "content": "We are thrilled to introduce our new players who have joined the team this season. Check out their profiles!"
+        },
+        {
+            "title": "Upcoming Events",
+            "date": "2024-12-10",
+            "content": "Join us for our fan meetup and autograph session next week!"
+        }
+    ]
+}

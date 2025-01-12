@@ -1,0 +1,53 @@
+<div class="cont">    <!-- Contact Section -->
+    <main class="container mt-5">
+        <section>
+            <h1 class="text-center mb-4">Contact Us</h1>
+            <p class="text-center">If you have any questions, feel free to reach out to us!</p>
+            
+            <!-- Contact Form -->
+            <form id="contact-form" class="needs-validation" novalidate>
+                <!-- Name -->
+                <div class="mb-3">
+                    <label for="name" class="form-label">Full Name</label>
+                    <input type="text" id="name" class="form-control" required>
+                    <div class="invalid-feedback">Please enter your full name.</div>
+                </div>
+
+                <!-- Email -->
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email Address</label>
+                    <input type="email" id="email" class="form-control" required>
+                    <div class="invalid-feedback">Please enter a valid email address.</div>
+                </div>
+
+                <!-- Preferred Contact Date -->
+                <div class="mb-3">
+                    <label for="date" class="form-label">Preferred Contact Date</label>
+                    <input type="date" id="date" class="form-control" required>
+                    <div class="invalid-feedback">Please select a date.</div>
+                </div>
+
+                <!-- Password -->
+                <div class="mb-3">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="password" id="password" class="form-control" required>
+                    <div id="password-strength" class="form-text"></div>
+                    <div class="invalid-feedback">Please enter a password that meets the criteria.</div>
+                </div>
+
+                <!-- Message -->
+                <div class="mb-3">
+                    <label for="message" class="form-label">Your Message</label>
+                    <textarea id="message" class="form-control" rows="5" required></textarea>
+                    <div class="invalid-feedback">Please enter your message.</div>
+                </div>
+
+                <!-- Submit Button -->
+                <button type="submit" class="btn btn-primary w-100">Submit</button>
+            </form>
+        </section>
+    </main>
+
+   
+</div>
+    
