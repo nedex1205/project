@@ -1,0 +1,66 @@
+<div class="cont"> <section>  
+    <h1>Welcome to the Partizan Basketball Club</h1>  
+    <h2>Latest News</h2>  
+    <p>Stay updated with the latest happenings at the Partizan Basketball Club. Check out our <a href="https://partizan.basketball/" target="_blank">News Section</a>.</p>  
+
+    <!-- Player Table -->  
+    <section>  
+        <h1>Partizan Basketball Club Players</h1>  
+        <table class="table table-striped mt-4" id="player-table">  
+            <thead>  
+                <tr>  
+                    <th>Name</th>  
+                    <th>Position</th>  
+                    <th>Number</th>  
+                    <th>Actions</th>  
+                </tr>  
+            </thead>  
+            <tbody id="player-body">  
+                <!-- Player rows will be populated here dynamically -->  
+            </tbody>  
+        </table>  
+    </section>  
+
+    <!-- Gallery Section -->  
+    <h3>Gallery</h3>  
+    <div class="gallery">  
+        <img src="/assets/images/pbc1.jpg" alt="Partizan Picture" height="200" width="200">  
+        <img src="/assets/images/pbc2.jpg" alt="Partizan Picture" height="200" width="300">  
+        <img src="/assets/images/pbc3.jpg" alt="Partizan Picture" height="200" width="300">  
+    </div>  
+
+    <p>If you're interested in joining our club, <a href="/assets/views/register.html" target="_blank">register here</a>.</p>  
+    
+    <section id="dynamic-content">  
+        <h2>Latest Updates</h2>  
+        <div id="blog-posts"></div>  
+    </section>  
+    
+    <!-- FAQ Section with Accordion Menu -->  
+    <section>  
+        <h2>FAQs</h2>  
+        <button class="accordion-button">What is the Partizan Basketball Club?</button>  
+        <div class="accordion-content">  
+            <p>The Partizan Basketball Club is a professional basketball team with a rich history and passionate fans.</p>  
+        </div>  
+
+        <button class="accordion-button">How can I join the club?</button>  
+        <div class="accordion-content">  
+            <p>You can join the club by filling out the <a href="assets/views/register.html">registration form</a> on our website.</p>  
+        </div>  
+
+        <button class="accordion-button">Where can I buy merchandise?</button>  
+        <div class="accordion-content">  
+            <p>You can buy official Partizan Basketball Club merchandise from our <a href="assets/views/cart.html">store</a>.</p>  
+        </div>  
+    </section>  
+</section>  
+
+<!-- Lightbox for displaying player information -->  
+<div id="lightbox" class="lightbox">  
+    <div class="close" onclick="closeLightbox()">&times;</div>  
+    <div class="lightbox-content" id="lightbox-content"></div>  
+</div>  
+
+</div>
+   
